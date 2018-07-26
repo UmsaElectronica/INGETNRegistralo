@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Publica ETN net</string>
+    <string name="title_activity_loginp">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="username_textview">Username:</string>
+    <string name="password_textview">Password:</string>
+    <string name="submit">Submit</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string-array name="materias">
+        <item>Seleccionar Materia...</item>
+        <item>ETN 507</item>
+        <item>ETN 401</item>
+        <item>ETN 302</item>
+        <item>ETN 307</item>
+        <item>ETN 340</item>
+        <item>ETN 406</item>
+        <item>ETN 402</item>
+        <item>ETN 404</item>
+        <item>ETN 501</item>
+        <item>ETN 503</item>
+        <item>ETN 505</item>
+        <item>ETN 607</item>
+        <item>ETN 502</item>
+        <item>ETN 506</item>
+        <item>ETN 601</item>
+        <item>ETN 603</item>
+        <item>ETN 805</item>
+        <item>ETN 606</item>
+        <item>ETN 702</item>
+        <item>ETN 703</item>
+        <item>ETN 821</item>
+        <item>ETN 640</item>
+        <item>ETN 704</item>
+        <item>ETN 801</item>
+        <item>ETN 806</item>
+        <item>ETN 814</item>
+        <item>ETN 832</item>
+        <item>ETN 902</item>
+        <item>ETN 1016</item>
+        <item>ETN 825</item>
+        <item>ETN 903</item>
+        <item>ETN 911</item>
+        <item>ETN 913</item>
+        <item>ETN 1015</item>
+        <item>ETN 840</item>
+        <item>ETN 921</item>
+        <item>ETN 933</item>
+        <item>ETN 1022</item>
+        <item>ETN 1000</item>
+        <item>ETN 1039</item>
+        <item>ETN 935</item>
+        <item>ETN 1011</item>
+        <item>ETN 1012</item>
+        <item>ETN 1024</item>
+        <item>ETN 1038</item>
+        <item>REC 092</item>
+        <item>ETN 1034</item>
+        <item>ETN 1036</item>
+        <item>ETN 1037</item>
+        <item>ETN 1050</item>
+        <item>ETN 1010</item>
+        <item>ETN 1001</item>
+        <item>ETN 906</item>
+        <item>ETN 1040</item>
+        <item>ETN 2000</item>
+        <item>DIRECCIÓN</item>
+        <item>C.E.I.E </item>
+        <item>LAB. MULT.</item>
+        <item>I.E.A</item>
+    </string-array>
+
+</resources>

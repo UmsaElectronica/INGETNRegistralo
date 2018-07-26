@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.luis.ingetnregistralo.LoginActivity"
+    android:background="@drawable/fondo"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:id="@+id/imageView2"
+                android:soundEffectsEnabled="false"
+                android:src="@drawable/newlogo"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/mail"
+                android:background="#f1f9ca"
+                android:layout_margin="10dp"
+                android:hint="Correo Electrónico"
+                android:gravity="center"
+                android:drawableLeft="@drawable/ic_action_mail"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/pass"
+                android:background="#f1f9ca"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:hint="Contraseña"
+                android:drawableLeft="@drawable/ic_action_lock_closed"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ACEPTAR"
+                android:id="@+id/button"
+                android:background="#0c35c9"
+                android:textColor="#FFFFFF"
+                android:layout_margin="5dp"
+                android:textColorHighlight="#b1eae3"
+                android:textSize="15dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REGISTRAR NUEVO USUARIO"
+                android:id="@+id/button2"
+                android:layout_margin="5dp"
+                android:background="#04a21c"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:textColorHighlight="#9feba4"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
